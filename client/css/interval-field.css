@@ -1,0 +1,22 @@
+.interval-field--horizontal.composite {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.interval-field--horizontal.composite .field {
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.interval-field--horizontal.composite .field input[type="number"] {
+    width: 80px;
+    max-width: 100%;
+}
+
+.interval-field--horizontal.composite .field label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+}
+
