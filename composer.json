@@ -18,6 +18,7 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
+        "php": "^8.2",
         "silverstripe/framework": "^6"
     },
     "autoload": {
@@ -31,5 +32,14 @@
         ]
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "clesson-de/silverstripe-codeguard": "^0.0.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
+        }
+    }
 }
